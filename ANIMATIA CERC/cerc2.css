@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100;
+    height: 1005;
+    border-style: solid;
+    margin-left: 5em;
+    background-color: #050210;
+    border-top: 4em;
+
+}
+
+.mare {
+    display: flex;
+    width: 35em;
+    height: 35em;
+    border-style: solid;
+    margin: auto;
+    border-radius: 50%;
+    border-width: 2em;
+    border-left: 2em;
+    background: repeating-linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    align-items: center;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: #050210;
+    animation-name: my-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    border: 25px solid;
+   
+   
+
+}
+
+
+#mic {
+
+    width: 27em;
+    height: 27em;
+    border-style: solid;
+    margin: auto;
+    border-radius: 50%;
+    color: black;
+    background-color: black;
+
+}
+
+
+@keyframes my-animation{
+    from{
+transform: rotate(odeg);
+
+
+    }
+
+    to{
+transform: rotate(360deg);
+    }
+
+}
