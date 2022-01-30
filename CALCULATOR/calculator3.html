@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator3.css">
+    <script src="calculator3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <form name="form">
+            <input class="area" name="area" value="" placeholder="0">
+            <table id="calc">
+                <tr>
+                    <td><input type="button" value="C" onclick="reseteaza()"></td>
+                    <td><input type="button" value="<" onclick="sterge();"></td>
+                    <td><input type="button" value="/" onclick="scrie('/');"></td>
+                    <td><input type="button" value="x" onclick="scrie('*');"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="scrie(7);"></td>
+                    <td><input type="button" value="8" onclick="scrie(8);"></td>
+                    <td><input type="button" value="9" onclick="scrie(9);"></td>
+                    <td><input type="button" value="-" onclick="scrie('-');"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="scrie(4);"></td>
+                    <td><input type="button" value="5" onclick="scrie(5);"></td>
+                    <td><input type="button" value="6" onclick="scrie(6);"></td>
+                    <td><input type="button" value="+" onclick="scrie('+');"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="scrie(1);"></td>
+                    <td><input type="button" value="2" onclick="scrie(2);"></td>
+                    <td><input type="button" value="3" onclick="scrie(3);"></td>
+                    <td rowspan="2"><input style="height:40px" type="button" value="=" onclick="egal();"></td>
+                </tr>
+                
+            </table>
+        </form>
+    </div>
+</body>
+</html>
