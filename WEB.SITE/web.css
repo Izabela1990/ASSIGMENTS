@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2{
+  background:url(hero.jpg) ;
+  height: 450px;
+ 
+}
+
+.hero{
+    background-color: green;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 532px;
+    text-align: center;
+     margin-left: 30px;
+     padding: 9px;
+     padding-right: 0px;
+     padding-left: 8px;
+   
+}
+
+.container4{
+  width: 470px;
+  height: 450px;
+  margin-top: 20px;
+}
+.bike , .surf , .hills , .path{
+  width: 300px;
+  height: 200px;
+ 
+}
+
+.cow ,.grass , .sunrise{
+  width: 400px;
+  height: 200px;
+}
+
+
+
+.col-sm-6 col-md-3 item{
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+
+
